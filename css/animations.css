@@ -1,0 +1,15 @@
+@keyframes card-grow-shrink {
+    0% { transform: scale(1.2); }
+    /* 50% { transform: scale(1.1); } */
+    100% { transform: scale(1.2); }
+}
+
+@keyframes scale-left-right {
+    0% { transform: scale(1.0); }
+    100% { transform: scale(1.2); transform-origin: left;} 
+}
+
+@keyframes scale-left-right-big {
+    0% { transform: scale(1.0); }
+    100% { transform: scale(1.6); transform-origin: left;} 
+}
